@@ -1,0 +1,328 @@
+/* Custom CSS */
+
+/* Root and body styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    padding: 10px 0;
+  }
+
+  .logo-text {
+    font-size: 24px;
+    margin-left: 10px;
+  }  
+  
+  .navbar-brand img {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 15px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  .navbar-nav.ml-auto .nav-link {
+    color: #777;
+    font-size: 20px;
+  }
+  
+  .navbar-nav.ml-auto .nav-link i {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url(../images/hero/hero-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .hero-title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* About Section */
+  .about {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .section-description {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+/* Custom CSS */
+
+.container-gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+    /*padding: 60px 0;*/
+    margin-top: 5px;
+  }
+  
+  .gallery {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .gallery-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+  }
+  
+  .gallery-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-materials {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-rating {
+    margin-top: 10px;
+  }
+  
+  .gallery-rating i {
+    color: #ffc107;
+  }
+
+/* Custom CSS */
+
+.footer {
+  background-color: #000;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-links,
+.footer-contact {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+  margin-bottom: 10px;
+}
+
+.footer-links a,
+.footer-contact li {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-contact li:hover {
+  color: #ccc;
+}
+
+.footer-social-icons {
+  margin-top: 20px;
+}
+
+.footer-social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer-social-icons a:hover {
+  color: #ccc;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Media query for small screens */
+  @media (max-width: 767px) {
+    .navbar-brand img {
+      height: 30px;
+      margin-left: 2rem;
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .container-gallery {
+      padding: 0 15px;
+    }
+    
+    .section-title {
+      font-size: 28px;
+    }
+    
+    .gallery-item {
+      margin-bottom: 20px;
+    }
+    
+    .gallery-content {
+      position: static;
+      padding: 15px;
+      background-color: transparent;
+      color: #333;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-title {
+      text-align: center;
+    }
+    
+    .footer-row {
+      flex-direction: column;
+    }
+    
+    .footer-links,
+    .footer-social-icons {
+      text-align: center;
+    }
+    
+    .footer-links li,
+    .footer-social-icons li {
+      margin-bottom: 5px;
+    }
+
+    .footer-links,
+    .footer-contact {
+      text-align: center;
+    }
+    
+    .footer-links li,
+    .footer-contact li {
+      margin-bottom: 5px;
+    }
+  }
