@@ -167,6 +167,69 @@
     color: #ffc107;
   }
 
+
+ /* Custom CSS */
+
+.section {
+  padding: 50px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-option {
+  text-align: center;
+  margin: 20px;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.contact-option a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.contact-option:hover {
+  transform: translateY(-5px);
+}
+
+.contact-option:hover a {
+  color: #777;
+}
+
+.contact-option i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.contact-label {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  margin-bottom: 0;
+}
+
+
 /* Custom CSS */
 
 .footer {
